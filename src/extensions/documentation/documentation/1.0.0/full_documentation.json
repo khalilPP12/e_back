@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2023-04-02T02:57:05.915Z"
+    "x-generation-date": "2023-04-02T13:07:06.248Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -98,7 +98,8 @@
               "nameArticle",
               "Gender",
               "hasColors",
-              "hasSize"
+              "hasSize",
+              "isLiquide"
             ],
             "type": "object",
             "properties": {
@@ -196,7 +197,11 @@
               "hasSize": {
                 "type": "boolean"
               },
-              "sizeArticle": {}
+              "sizeArticle": {},
+              "isLiquide": {
+                "type": "boolean"
+              },
+              "sizeLiquide": {}
             }
           }
         }
@@ -3172,6 +3177,10 @@
                                           "type": "boolean"
                                         },
                                         "sizeArticle": {},
+                                        "isLiquide": {
+                                          "type": "boolean"
+                                        },
+                                        "sizeLiquide": {},
                                         "createdAt": {
                                           "type": "string",
                                           "format": "date-time"
@@ -3344,6 +3353,10 @@
                 "type": "boolean"
               },
               "sizeArticle": {},
+              "isLiquide": {
+                "type": "boolean"
+              },
+              "sizeLiquide": {},
               "createdAt": {
                 "type": "string",
                 "format": "date-time"
@@ -6365,6 +6378,10 @@
                                           "type": "boolean"
                                         },
                                         "sizeArticle": {},
+                                        "isLiquide": {
+                                          "type": "boolean"
+                                        },
+                                        "sizeLiquide": {},
                                         "createdAt": {
                                           "type": "string",
                                           "format": "date-time"
@@ -6537,6 +6554,10 @@
                 "type": "boolean"
               },
               "sizeArticle": {},
+              "isLiquide": {
+                "type": "boolean"
+              },
+              "sizeLiquide": {},
               "createdAt": {
                 "type": "string",
                 "format": "date-time"
@@ -9591,6 +9612,10 @@
                                           "type": "boolean"
                                         },
                                         "sizeArticle": {},
+                                        "isLiquide": {
+                                          "type": "boolean"
+                                        },
+                                        "sizeLiquide": {},
                                         "createdAt": {
                                           "type": "string",
                                           "format": "date-time"
@@ -9763,6 +9788,10 @@
                 "type": "boolean"
               },
               "sizeArticle": {},
+              "isLiquide": {
+                "type": "boolean"
+              },
+              "sizeLiquide": {},
               "createdAt": {
                 "type": "string",
                 "format": "date-time"
@@ -12784,6 +12813,10 @@
                                           "type": "boolean"
                                         },
                                         "sizeArticle": {},
+                                        "isLiquide": {
+                                          "type": "boolean"
+                                        },
+                                        "sizeLiquide": {},
                                         "createdAt": {
                                           "type": "string",
                                           "format": "date-time"
@@ -12956,6 +12989,10 @@
                 "type": "boolean"
               },
               "sizeArticle": {},
+              "isLiquide": {
+                "type": "boolean"
+              },
+              "sizeLiquide": {},
               "createdAt": {
                 "type": "string",
                 "format": "date-time"
@@ -14873,6 +14910,10 @@
                             "type": "boolean"
                           },
                           "sizeArticle": {},
+                          "isLiquide": {
+                            "type": "boolean"
+                          },
+                          "sizeLiquide": {},
                           "createdAt": {
                             "type": "string",
                             "format": "date-time"
@@ -16789,6 +16830,10 @@
                             "type": "boolean"
                           },
                           "sizeArticle": {},
+                          "isLiquide": {
+                            "type": "boolean"
+                          },
+                          "sizeLiquide": {},
                           "createdAt": {
                             "type": "string",
                             "format": "date-time"
@@ -18738,6 +18783,10 @@
                             "type": "boolean"
                           },
                           "sizeArticle": {},
+                          "isLiquide": {
+                            "type": "boolean"
+                          },
+                          "sizeLiquide": {},
                           "createdAt": {
                             "type": "string",
                             "format": "date-time"
@@ -20654,6 +20703,10 @@
                             "type": "boolean"
                           },
                           "sizeArticle": {},
+                          "isLiquide": {
+                            "type": "boolean"
+                          },
+                          "sizeLiquide": {},
                           "createdAt": {
                             "type": "string",
                             "format": "date-time"
@@ -23265,6 +23318,10 @@
                           "type": "boolean"
                         },
                         "sizeArticle": {},
+                        "isLiquide": {
+                          "type": "boolean"
+                        },
+                        "sizeLiquide": {},
                         "createdAt": {
                           "type": "string",
                           "format": "date-time"
@@ -25158,6 +25215,10 @@
                               "type": "boolean"
                             },
                             "sizeArticle": {},
+                            "isLiquide": {
+                              "type": "boolean"
+                            },
+                            "sizeLiquide": {},
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -27055,6 +27116,10 @@
                               "type": "boolean"
                             },
                             "sizeArticle": {},
+                            "isLiquide": {
+                              "type": "boolean"
+                            },
+                            "sizeLiquide": {},
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -28983,6 +29048,10 @@
                               "type": "boolean"
                             },
                             "sizeArticle": {},
+                            "isLiquide": {
+                              "type": "boolean"
+                            },
+                            "sizeLiquide": {},
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -30880,6 +30949,10 @@
                               "type": "boolean"
                             },
                             "sizeArticle": {},
+                            "isLiquide": {
+                              "type": "boolean"
+                            },
+                            "sizeLiquide": {},
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -32810,6 +32883,10 @@
                               "type": "boolean"
                             },
                             "sizeArticle": {},
+                            "isLiquide": {
+                              "type": "boolean"
+                            },
+                            "sizeLiquide": {},
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -34690,6 +34767,10 @@
                               "type": "boolean"
                             },
                             "sizeArticle": {},
+                            "isLiquide": {
+                              "type": "boolean"
+                            },
+                            "sizeLiquide": {},
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -36603,6 +36684,10 @@
                               "type": "boolean"
                             },
                             "sizeArticle": {},
+                            "isLiquide": {
+                              "type": "boolean"
+                            },
+                            "sizeLiquide": {},
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -38483,6 +38568,10 @@
                               "type": "boolean"
                             },
                             "sizeArticle": {},
+                            "isLiquide": {
+                              "type": "boolean"
+                            },
+                            "sizeLiquide": {},
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"

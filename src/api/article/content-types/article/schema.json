@@ -133,6 +133,26 @@
         "XXXL"
       ],
       "customField": "plugin::multi-select.multi-select"
+    },
+    "isLiquide": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "sizeLiquide": {
+      "type": "customField",
+      "options": [
+        "50",
+        "100",
+        "150",
+        "200",
+        "250",
+        "400",
+        "450",
+        "500",
+        "700"
+      ],
+      "customField": "plugin::multi-select.multi-select"
     }
   }
 }
