@@ -1,0 +1,57 @@
+{
+  "kind": "collectionType",
+  "collectionName": "commande_clients",
+  "info": {
+    "singularName": "commande-client",
+    "pluralName": "commande-clients",
+    "displayName": "commandeClient",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "fullName": {
+      "type": "text",
+      "maxLength": 25,
+      "required": true,
+      "private": true,
+      "unique": false
+    },
+    "email": {
+      "type": "email"
+    },
+    "phoneNumber": {
+      "type": "biginteger",
+      "required": true,
+      "max": "13",
+      "private": true
+    },
+    "isPromoArticle": {
+      "type": "boolean",
+      "default": false
+    },
+    "dateCommande": {
+      "type": "date",
+      "required": true
+    },
+    "article": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::article.article",
+      "inversedBy": "commande_clients"
+    },
+    "homeAdress": {
+      "type": "text",
+      "required": true,
+      "maxLength": 75
+    },
+    "article_ID": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::article.article",
+      "inversedBy": "commande_client"
+    }
+  }
+}

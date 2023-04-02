@@ -1,0 +1,138 @@
+{
+  "kind": "collectionType",
+  "collectionName": "articles",
+  "info": {
+    "singularName": "article",
+    "pluralName": "articles",
+    "displayName": "article",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nameArticle": {
+      "type": "text",
+      "unique": true,
+      "required": true
+    },
+    "quantity": {
+      "type": "integer"
+    },
+    "images_products": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "imagePresentation": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "price": {
+      "type": "integer"
+    },
+    "promoPrice": {
+      "type": "integer"
+    },
+    "description": {
+      "type": "text"
+    },
+    "promotion": {
+      "type": "boolean",
+      "default": false
+    },
+    "oldPrice": {
+      "type": "integer"
+    },
+    "commande_clients": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::commande-client.commande-client",
+      "mappedBy": "article"
+    },
+    "categories": {
+      "type": "customField",
+      "options": [
+        "ALL",
+        "Beauty",
+        "Gadgets",
+        "Accessories",
+        "Clothes",
+        "Electronics",
+        "Others"
+      ],
+      "customField": "plugin::multi-select.multi-select"
+    },
+    "Gender": {
+      "type": "customField",
+      "options": [
+        "Male",
+        "Female"
+      ],
+      "required": true,
+      "customField": "plugin::multi-select.multi-select"
+    },
+    "slide_home_pages": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::slide-home-page.slide-home-page",
+      "mappedBy": "articles"
+    },
+    "commande_client": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::commande-client.commande-client",
+      "mappedBy": "article_ID"
+    },
+    "hasColors": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "colors": {
+      "type": "customField",
+      "options": [
+        "White",
+        "Black",
+        "Yellow",
+        "Green",
+        "Red",
+        "Blue"
+      ],
+      "required": false,
+      "customField": "plugin::multi-select.multi-select"
+    },
+    "hasSize": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "sizeArticle": {
+      "type": "customField",
+      "options": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL",
+        "XXXL"
+      ],
+      "customField": "plugin::multi-select.multi-select"
+    }
+  }
+}
