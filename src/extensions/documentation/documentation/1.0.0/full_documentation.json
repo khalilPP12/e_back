@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2023-04-02T13:07:06.248Z"
+    "x-generation-date": "2023-04-09T00:28:23.198Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -201,7 +201,10 @@
               "isLiquide": {
                 "type": "boolean"
               },
-              "sizeLiquide": {}
+              "sizeLiquide": {},
+              "pourcentage": {
+                "type": "integer"
+              }
             }
           }
         }
@@ -3181,6 +3184,9 @@
                                           "type": "boolean"
                                         },
                                         "sizeLiquide": {},
+                                        "pourcentage": {
+                                          "type": "integer"
+                                        },
                                         "createdAt": {
                                           "type": "string",
                                           "format": "date-time"
@@ -3357,6 +3363,9 @@
                 "type": "boolean"
               },
               "sizeLiquide": {},
+              "pourcentage": {
+                "type": "integer"
+              },
               "createdAt": {
                 "type": "string",
                 "format": "date-time"
@@ -6382,6 +6391,9 @@
                                           "type": "boolean"
                                         },
                                         "sizeLiquide": {},
+                                        "pourcentage": {
+                                          "type": "integer"
+                                        },
                                         "createdAt": {
                                           "type": "string",
                                           "format": "date-time"
@@ -6558,6 +6570,9 @@
                 "type": "boolean"
               },
               "sizeLiquide": {},
+              "pourcentage": {
+                "type": "integer"
+              },
               "createdAt": {
                 "type": "string",
                 "format": "date-time"
@@ -9616,6 +9631,9 @@
                                           "type": "boolean"
                                         },
                                         "sizeLiquide": {},
+                                        "pourcentage": {
+                                          "type": "integer"
+                                        },
                                         "createdAt": {
                                           "type": "string",
                                           "format": "date-time"
@@ -9792,6 +9810,9 @@
                 "type": "boolean"
               },
               "sizeLiquide": {},
+              "pourcentage": {
+                "type": "integer"
+              },
               "createdAt": {
                 "type": "string",
                 "format": "date-time"
@@ -12817,6 +12838,9 @@
                                           "type": "boolean"
                                         },
                                         "sizeLiquide": {},
+                                        "pourcentage": {
+                                          "type": "integer"
+                                        },
                                         "createdAt": {
                                           "type": "string",
                                           "format": "date-time"
@@ -12993,6 +13017,9 @@
                 "type": "boolean"
               },
               "sizeLiquide": {},
+              "pourcentage": {
+                "type": "integer"
+              },
               "createdAt": {
                 "type": "string",
                 "format": "date-time"
@@ -14914,6 +14941,9 @@
                             "type": "boolean"
                           },
                           "sizeLiquide": {},
+                          "pourcentage": {
+                            "type": "integer"
+                          },
                           "createdAt": {
                             "type": "string",
                             "format": "date-time"
@@ -16834,6 +16864,9 @@
                             "type": "boolean"
                           },
                           "sizeLiquide": {},
+                          "pourcentage": {
+                            "type": "integer"
+                          },
                           "createdAt": {
                             "type": "string",
                             "format": "date-time"
@@ -18787,6 +18820,9 @@
                             "type": "boolean"
                           },
                           "sizeLiquide": {},
+                          "pourcentage": {
+                            "type": "integer"
+                          },
                           "createdAt": {
                             "type": "string",
                             "format": "date-time"
@@ -20707,6 +20743,9 @@
                             "type": "boolean"
                           },
                           "sizeLiquide": {},
+                          "pourcentage": {
+                            "type": "integer"
+                          },
                           "createdAt": {
                             "type": "string",
                             "format": "date-time"
@@ -23322,6 +23361,9 @@
                           "type": "boolean"
                         },
                         "sizeLiquide": {},
+                        "pourcentage": {
+                          "type": "integer"
+                        },
                         "createdAt": {
                           "type": "string",
                           "format": "date-time"
@@ -25219,6 +25261,9 @@
                               "type": "boolean"
                             },
                             "sizeLiquide": {},
+                            "pourcentage": {
+                              "type": "integer"
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -27120,6 +27165,9 @@
                               "type": "boolean"
                             },
                             "sizeLiquide": {},
+                            "pourcentage": {
+                              "type": "integer"
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -29052,6 +29100,9 @@
                               "type": "boolean"
                             },
                             "sizeLiquide": {},
+                            "pourcentage": {
+                              "type": "integer"
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -30953,6 +31004,9 @@
                               "type": "boolean"
                             },
                             "sizeLiquide": {},
+                            "pourcentage": {
+                              "type": "integer"
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -32887,6 +32941,9 @@
                               "type": "boolean"
                             },
                             "sizeLiquide": {},
+                            "pourcentage": {
+                              "type": "integer"
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -34771,6 +34828,9 @@
                               "type": "boolean"
                             },
                             "sizeLiquide": {},
+                            "pourcentage": {
+                              "type": "integer"
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -36688,6 +36748,9 @@
                               "type": "boolean"
                             },
                             "sizeLiquide": {},
+                            "pourcentage": {
+                              "type": "integer"
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -38572,6 +38635,9 @@
                               "type": "boolean"
                             },
                             "sizeLiquide": {},
+                            "pourcentage": {
+                              "type": "integer"
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"

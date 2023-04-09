@@ -153,6 +153,10 @@
         "700"
       ],
       "customField": "plugin::multi-select.multi-select"
+    },
+    "pourcentage": {
+      "type": "integer",
+      "default": 25
     }
   }
 }
